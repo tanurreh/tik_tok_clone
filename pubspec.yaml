@@ -1,0 +1,43 @@
+name: titto_clone
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.5 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter_screenutil: ^5.5.3+2
+  flutter_svg: ^1.0.3
+  google_fonts: ^2.2.0
+  firebase_core: ^1.18.0
+  firebase_auth: ^3.6.2
+  cloud_firestore: ^3.1.18
+  image_picker: ^0.8.5+3
+  firebase_storage: ^10.3.4
+
+
+
+
+  flutter: 
+    sdk: flutter
+  video_player: ^2.4.7
+  video_compress: ^3.1.1
+  timeago: ^3.3.0
+  cached_network_image: ^3.2.1
+  integration_test:
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  lints: 2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/
+
+
